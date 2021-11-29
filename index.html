@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jyotika Israni Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="images/logore.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Jyotika Israni!</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro"><b>Budding Software Developer</b></p>
+            <img src="images/jyotika2.png" alt="a picture of Jane Smith smiling" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Android Development</h3>
+                    <p>Beginner level Android Developer. Currently doing an internship in the same with The Sparks Foundation. The power to create and run an application truly fascinates me.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Data Structures & Algorithms</h3>
+                    <p>Training under Coding Ninjas to gain DSA skills in C++. DSA plays a very important role in reducing the time complexity of the code and practicing it every day sharpens the brain indeed.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Machine Learning Enthusiast</h3>
+                    <p>Recently, I built a project using a pre trained ML dataset which majorly drew me towards Machine Learning. Do check <b>Physiodetect</b> in my work section to know more about it.</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Sophomore Year Student & Developer based out of New Delhi, India. </p>
+           
+           <div class="about-me__body">
+               <p>I have stemmed out my career from Biology. When I joined the mainstream CS Community I was scared and unsure about how to proceed in this rat-race. I am still not really sure about what I want to pursue in life but I am sure that this urge to explore will surely help me.</p>
+               <p>I am skilled in C++ & Python. Along with that I've experience in Frontend Development. I have participated in several Hackathons & secured positions in some of them. The main goal is to grow as a human being while exploring!</p>
+           </div>
+           
+           <img src="images/jyotika3.png" alt="Jane leaning against a bus" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="https://devpost.com/software/physiodetect" class="portfolio__item">
+                    <img src="images/portfolio1.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="https://devpost.com/software/eazytoaccess" class="portfolio__item">
+                    <img src="images/portfolio2.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="https://github.com/jyotikaisrani" class="portfolio__item">
+                    <img src="images/portfolio3.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="https://devpost.com/software/smart-transportation-pnwdlf" class="portfolio__item">
+                    <img src="images/portfolio4.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="#" class="portfolio__item">
+                    <img src="images/portfolio5.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 06 -->
+                <a href="https://github.com/jyotikaisrani" class="portfolio__item">
+                    <img src="images/portfolio6.png" alt="" class="portfolio__img">
+                </a>
+                
+            
+                </a>
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:ijyotikaisrani@gmail.com" class="footer__link">hello@jyotika.dev</a>
+            <ul class="social-list">
+                
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/jyotika-israni-757669205/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/jyotikaisrani">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="index.js"></script>
+        
+    </body>
+</html>
